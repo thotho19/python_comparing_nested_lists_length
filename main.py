@@ -8,7 +8,7 @@ comparingState = True
 
 for d in data:
     if lenSize != len(d):
-        same = False
+        comparingState = False
     else:
         pass
 print(comparingState)
